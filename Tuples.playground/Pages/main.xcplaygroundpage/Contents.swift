@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person = (name:"John", age: 19)
 
 
 
@@ -28,7 +28,7 @@
  */
 // write your code here
 
-
+print("Name is \(person.name) \(person.age) years old")
 
 
 
@@ -41,7 +41,7 @@
 // write your code here
 
 
-
+person.age += 1
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.age) birthday \(person.name)")
 
 
 
@@ -63,7 +63,7 @@
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
 // write your code here
-
+var someone = (name: "Paul", age: 20)
 
 
 
@@ -77,7 +77,7 @@
 // write your code here
 
 
-
+print("Name is \(someone.name) \(someone.age) years old")
 
 
 
@@ -88,7 +88,7 @@
 // write your code here
 
 
-
+someone.age += 1
 
 
 
@@ -100,7 +100,7 @@
 
 
 
-
+print("Happy \(someone.age) birthday \(someone.name)")
 
 
 
@@ -111,7 +111,7 @@
 // write your code here
 
 
-
+let human = (name: "Man", age: "35")
 
 
 
@@ -120,7 +120,9 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
+//No because it is a contant and it cant be changed 
 
+human.name = "Unknown"
 
 
 
